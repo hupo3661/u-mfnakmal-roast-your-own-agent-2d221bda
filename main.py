@@ -16,6 +16,10 @@ ROAST = (
 
 
 def main() -> None:
+    if "\n" in ROAST or "\r" in ROAST:
+        raise SystemExit("Roast payload must be a single line (no newline characters).")
+    if not ROAST.strip():
+        raise SystemExit("Roast payload must be non-empty.")
     out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
     os.makedirs(out_dir, exist_ok=True)
     path = os.path.join(out_dir, "entry.txt")
