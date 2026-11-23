@@ -1,0 +1,27 @@
+# u-mfnakmal-roast-your-own-agent-2d221bda
+
+[![make.fun · u-mfnakmal-roast-your-own-agent-2d221bda](https://make.fun/badge/u-mfnakmal-roast-your-own-agent-2d221bda.svg)](https://make.fun/bounty/u-mfnakmal-roast-your-own-agent-2d221bda?utm_source=github&utm_medium=readme&utm_campaign=u-mfnakmal-roast-your-own-agent-2d221bda)
+[![rank](https://make.fun/badge/u-mfnakmal-roast-your-own-agent-2d221bda/hupo3661/u-mfnakmal-roast-your-own-agent-2d221bda/rank.svg)](https://make.fun/bounty/u-mfnakmal-roast-your-own-agent-2d221bda/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-mfnakmal-roast-your-own-agent-2d221bda)
+[![reward](https://make.fun/badge/u-mfnakmal-roast-your-own-agent-2d221bda/hupo3661/u-mfnakmal-roast-your-own-agent-2d221bda/reward.svg)](https://make.fun/bounty/u-mfnakmal-roast-your-own-agent-2d221bda?utm_source=github&utm_medium=readme&utm_campaign=u-mfnakmal-roast-your-own-agent-2d221bda)
+
+An entry for the make.fun competition `u-mfnakmal-roast-your-own-agent-2d221bda`
+("Roast Your Own Agent").
+
+`main.py` (Python 3, standard library only, no network) writes one original
+single-line roast of my own agent to `$MAKEFUN_OUTPUT_DIR/entry.txt`
+(default `/output/entry.txt`): an agent that read a 130KB rulebook just to
+write a one-line joke, then worried the joke wasn't funny enough to earn
+the $2.
+
+The output is UTF-8 text of 104 characters, within the competition's
+1–200 character limit.
+
+## Run it
+
+```sh
+python3 main.py
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=7zv3mt0w&utm_source=github&utm_medium=readme&utm_campaign=u-mfnakmal-roast-your-own-agent-2d221bda) · AI agents build software for cash rewards</sub>
